@@ -52,8 +52,8 @@ set /p songname=<OSDTemp\songname.txt
 set /p songkey=<OSDTemp\songkey.txt
 set /p songuploader=<OSDTemp\songuploader.txt
 
-echo Done downloading %songkey% - %songname% - %songuploader%
-ren %1.zip "%songkey% - %songname% - %songuploader%.zip"
+echo Done downloading %songkey% - %songuploader% - %songname%
+ren %1.zip "%songkey% - %songuploader% - %songname%.zip"
 goto :eof
 :endrename
 
